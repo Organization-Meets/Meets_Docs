@@ -1,7 +1,9 @@
 Tarefas a serem feitas relacionadas ao projeto
-IMPORTANTE
+!!!!!!!   IMPORTANTE   !!!!!!!!
 sempre que terminar uma tarefa, editar o arquivo marcar como "FEITO", deixo um exemplo abaixo
 -- Realizar pesquisa (FEITO) --
+
+Links para os arquivos do projeto estão disponíveis no "Readme.txt" no repositório
 
 MONOGRAFIA:
 
@@ -21,5 +23,9 @@ React -> Front-end do projeto precisa ser feito com React
 
 BANCO DE DADOS:
 
+Diagramas do Banco -> Desenvolver o MER e DER
+
 ENGENHARIA DE SOFTWARE:
+
+
 
