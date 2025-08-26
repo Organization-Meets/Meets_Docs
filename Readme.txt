@@ -4,4 +4,4 @@ Figma: https://www.figma.com/design/6u1bTRKTHtNI4QE8XvkotK/FatecMeets?m=auto&t=O
 
 Documentação: (Disponível no repositório em formato word)
 
-Diagramas: 
+Diagramas: (arquivos linkados para o Draw.io disponíveis no repositório)
