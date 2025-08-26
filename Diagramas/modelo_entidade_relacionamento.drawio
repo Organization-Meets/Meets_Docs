@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="L94KtwFrtdjTrxvs7I4Q-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Criar o Modelo de Entidade e Relacionamento&lt;/h1&gt;&lt;p&gt;Não abra mais de um diagrama por vez, ele ira para a sessão da anterior, crie branchs para editar os documentos e navegue até elas, para acessar os outros diagramas, vá em &amp;gt;&amp;gt; Ficheiro &amp;gt;&amp;gt; Abrir de &amp;gt;&amp;gt; GitHub, e boa sorte&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Gabriel Silva&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="L94KtwFrtdjTrxvs7I4Q-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Criar o Modelo de Entidade e Relacionamento&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Não abra mais de um diagrama por vez, ele ira para a sessão da anterior, crie branchs para editar os documentos e navegue até elas, para acessar os outros diagramas, vá em &amp;gt;&amp;gt; Ficheiro &amp;gt;&amp;gt; Abrir de &amp;gt;&amp;gt; GitHub, e boa sorte&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Gabriel Silva&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="150" width="370" height="210" as="geometry" />
         </mxCell>
       </root>
