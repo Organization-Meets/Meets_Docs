@@ -1,3 +1,8 @@
-Revisar Monografia:
+Tarefas a serem feitas relacionadas ao projeto
+IMPORTANTE
+sempre que terminar uma tarefa, editar o arquivo marcar como "FEITO", deixo um exemplo abaixo
+-- Realizar pesquisa (FEITO) --
 
-Descrição dos casos de uso
+Monografia:
+
+Concluir Requisitos do Mobile
