@@ -1,38 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="Página-1" id="31u_RSF_2e-038pzE4VU">
-    <mxGraphModel dx="778" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="1605" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="L94KtwFrtdjTrxvs7I4Q-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Criar o Modelo de Entidade e Relacionamento&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Não abra mais de um diagrama por vez, ele irá parar a sessão da anterior, crie branchs para editar os documentos e navegue até elas, para acessar os outros diagramas, vá em &amp;gt;&amp;gt; Ficheiro &amp;gt;&amp;gt; Abrir de &amp;gt;&amp;gt; GitHub, para encontrar os atributos e as chaves (são diferentes do br.modelo) pesquise &amp;gt;&amp;gt;attribute&amp;lt;&amp;lt;, entidade &amp;gt;&amp;gt;entity&amp;lt;&amp;lt;, relacionamento &amp;gt;&amp;gt;Entity relationship&amp;lt;&amp;lt;, boa sorte&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Gabriel Silva&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="-50" width="370" height="220" as="geometry" />
+        <mxCell id="L94KtwFrtdjTrxvs7I4Q-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Criar o Modelo de Entidade e Relacionamento&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Não abra mais de um diagrama por vez, ele irá parar a sessão da anterior, crie branchs para editar os documentos e navegue até elas, para acessar os outros diagramas, vá em &amp;gt;&amp;gt; Ficheiro &amp;gt;&amp;gt; Abrir de &amp;gt;&amp;gt; GitHub, para encontrar os atributos e as chaves (são diferentes do br.modelo) pesquise &amp;gt;&amp;gt;attribute&amp;lt;&amp;lt;, entidade &amp;gt;&amp;gt;entity&amp;lt;&amp;lt;, relacionamento &amp;gt;&amp;gt;Entity relationship&amp;lt;&amp;lt;, modelo Peter Chain, boa sorte&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;- Gabriel Silva&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="-50" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="o13eDb7Agj4rvyS5uoji-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1tBEp56qGTsb3s9c1h_0-1" target="1tBEp56qGTsb3s9c1h_0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o13eDb7Agj4rvyS5uoji-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1tBEp56qGTsb3s9c1h_0-1" target="1tBEp56qGTsb3s9c1h_0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o13eDb7Agj4rvyS5uoji-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1tBEp56qGTsb3s9c1h_0-1" target="1tBEp56qGTsb3s9c1h_0-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-1" value="Usuario" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="280" y="270" width="100" height="50" as="geometry" />
+          <mxGeometry x="350" y="530" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-2" value="Academicos" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="280" y="460" width="100" height="50" as="geometry" />
+          <mxGeometry x="-100" y="460" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-3" value="Aluno" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="100" y="460" width="100" height="50" as="geometry" />
+          <mxGeometry x="-100" y="610" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-4" value="Administradores" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="460" y="460" width="100" height="50" as="geometry" />
+          <mxGeometry x="270" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o13eDb7Agj4rvyS5uoji-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1tBEp56qGTsb3s9c1h_0-5" target="1tBEp56qGTsb3s9c1h_0-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-5" value="" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="140" y="380" width="60" height="50" as="geometry" />
+          <mxGeometry x="120" y="610" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o13eDb7Agj4rvyS5uoji-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1tBEp56qGTsb3s9c1h_0-6" target="1tBEp56qGTsb3s9c1h_0-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-6" value="" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="300" y="380" width="60" height="50" as="geometry" />
+          <mxGeometry x="120" y="460" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o13eDb7Agj4rvyS5uoji-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1tBEp56qGTsb3s9c1h_0-7" target="1tBEp56qGTsb3s9c1h_0-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-7" value="" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="460" y="380" width="60" height="50" as="geometry" />
+          <mxGeometry x="320" y="370" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-27" value="Atributo" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="690" y="-150" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-28" value="id_aluno" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
-          <mxGeometry x="500" y="260" width="100" height="40" as="geometry" />
+          <mxGeometry x="520" y="720" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1tBEp56qGTsb3s9c1h_0-29" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;Atributo chave fraca&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="690" width="100" height="40" as="geometry" />
