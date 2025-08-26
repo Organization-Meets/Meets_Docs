@@ -3,6 +3,23 @@ IMPORTANTE
 sempre que terminar uma tarefa, editar o arquivo marcar como "FEITO", deixo um exemplo abaixo
 -- Realizar pesquisa (FEITO) --
 
-Monografia:
+MONOGRAFIA:
 
 Concluir Requisitos do Mobile
+
+APLICATIVO:
+
+FIGMA -> realizar o wireframe do projeto APP (obs: antes de qualquer programação)
+
+Kotlin ->
+
+WEB:
+
+MVC -> ao converter, passar o projeto de acordo com o padrâo MVC (Model - View - Control)
+SpringBoot -> passar o projeto desenvolvido para o framework springboot java
+React -> Front-end do projeto precisa ser feito com React
+
+BANCO DE DADOS:
+
+ENGENHARIA DE SOFTWARE:
+
