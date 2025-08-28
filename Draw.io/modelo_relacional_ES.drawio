@@ -5,16 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oV0lXiYIv_nsQTcdN28l-1" value="Log" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="190" width="210" height="200" as="geometry" />
+          <mxGeometry x="150" y="190" width="170" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="oV0lXiYIv_nsQTcdN28l-2" value="- log_id: int&lt;div&gt;- usuario_id: int&lt;/div&gt;&lt;div&gt;- acao: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="oV0lXiYIv_nsQTcdN28l-1" vertex="1">
-          <mxGeometry y="50" width="210" height="150" as="geometry" />
+        <mxCell id="oV0lXiYIv_nsQTcdN28l-2" value="- log_id: int&lt;div&gt;- usuario_id: int&lt;/div&gt;&lt;div&gt;- acao: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ registrarLog(): String&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="oV0lXiYIv_nsQTcdN28l-1" vertex="1">
+          <mxGeometry y="50" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oV0lXiYIv_nsQTcdN28l-3" value="Usuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="190" width="230" height="200" as="geometry" />
+          <mxGeometry x="510" y="190" width="250" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="oV0lXiYIv_nsQTcdN28l-4" value="- usurio_id: int&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- numero: String&lt;/div&gt;&lt;div&gt;- nickname: String&lt;/div&gt;&lt;div&gt;- senha: String&lt;/div&gt;&lt;div&gt;- imagem: Json&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="oV0lXiYIv_nsQTcdN28l-3" vertex="1">
-          <mxGeometry y="50" width="230" height="150" as="geometry" />
+        <mxCell id="oV0lXiYIv_nsQTcdN28l-4" value="- usurio_id: int&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- numero: String&lt;/div&gt;&lt;div&gt;- nickname: String&lt;/div&gt;&lt;div&gt;- senha: String&lt;/div&gt;&lt;div&gt;- imagem: Json&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ denunciarEvento()&lt;/div&gt;&lt;div&gt;+ cadastrarUsuario()&lt;/div&gt;&lt;div&gt;+ enviarTokenEmail()&lt;/div&gt;&lt;div&gt;+ enviarTokenNumero()&lt;/div&gt;&lt;div&gt;+ verificarToken()&lt;/div&gt;&lt;div&gt;+ realizarLogin()&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="oV0lXiYIv_nsQTcdN28l-3" vertex="1">
+          <mxGeometry y="50" width="250" height="240" as="geometry" />
         </mxCell>
         <mxCell id="oV0lXiYIv_nsQTcdN28l-5" value="Evento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="620" width="160" height="120" as="geometry" />
