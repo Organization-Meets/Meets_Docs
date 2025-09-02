@@ -36,7 +36,7 @@
           <mxGeometry x="620" y="1860" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M8Kx94HlUBIBh2NKOW1G-10" value="Administradores" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="620" y="1510" width="100" height="50" as="geometry" />
+          <mxGeometry x="620" y="1530" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M8Kx94HlUBIBh2NKOW1G-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="M8Kx94HlUBIBh2NKOW1G-12" target="M8Kx94HlUBIBh2NKOW1G-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
