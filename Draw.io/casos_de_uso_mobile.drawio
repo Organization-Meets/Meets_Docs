@@ -42,6 +42,9 @@
         <mxCell id="UuWCt8wFG4w1Hzwwa4mH-10" value="Denunciar Post" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="fYYExFw8IcDkoCNdELxU-4">
           <mxGeometry x="630" y="120" width="140" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="UuWCt8wFG4w1Hzwwa4mH-13" value="Publicar Enquete" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="fYYExFw8IcDkoCNdELxU-4">
+          <mxGeometry x="630" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
