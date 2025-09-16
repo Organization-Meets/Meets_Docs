@@ -1,0 +1,159 @@
+-- =========== TABELAS PRINCIPAIS E DE AUTENTICAÇÃO ===========
+
+-- Tabela para armazenar as instituições de ensino
+CREATE TABLE instituicao (
+    id_inst INT PRIMARY KEY AUTO_INCREMENT,
+    nome_inst VARCHAR(255) NOT NULL,
+    cod_inst VARCHAR(50) UNIQUE NOT NULL
+);
+
+-- Tabela para o corpo docente (professores, administradores)
+CREATE TABLE corpo_docente (
+    id_colocan INT PRIMARY KEY AUTO_INCREMENT,
+    id_inst INT,
+    nome_docente VARCHAR(255) NOT NULL, -- Adicionei um campo de nome para melhor identificação
+    email_docente VARCHAR(255) UNIQUE NOT NULL, -- Adicionei um campo de email
+    FOREIGN KEY (id_inst) REFERENCES instituicao(id_inst) ON DELETE SET NULL
+);
+
+-- Tabela principal para os alunos
+CREATE TABLE aluno (
+    id_aluno INT PRIMARY KEY AUTO_INCREMENT,
+    id_inst INT,
+    id_mentor INT, -- Chave estrangeira para o mentor (do corpo docente)
+    ra VARCHAR(50) UNIQUE NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    user_github VARCHAR(100),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    senha VARCHAR(255) NOT NULL, -- Em um sistema real, armazene senhas com hash
+    FOREIGN KEY (id_inst) REFERENCES instituicao(id_inst) ON DELETE SET NULL,
+    FOREIGN KEY (id_mentor) REFERENCES corpo_docente(id_colocan) ON DELETE SET NULL
+);
+
+-- =========== TABELAS DE CONTEÚDO E INTERAÇÃO ===========
+
+-- Tabela para as postagens dos alunos
+CREATE TABLE postagem (
+    id_post INT PRIMARY KEY AUTO_INCREMENT,
+    id_aluno INT,
+    titulo_post VARCHAR(255) NOT NULL,
+    conteudo TEXT,
+    img_post VARCHAR(255), -- Caminho para a imagem
+    data_post DATE NOT NULL,
+    hora_post TIME NOT NULL,
+    num_curtidas INT DEFAULT 0,
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno) ON DELETE CASCADE
+);
+
+-- Tabela para os comentários nas postagens
+CREATE TABLE comentario (
+    id_comentario INT PRIMARY KEY AUTO_INCREMENT,
+    id_post INT,
+    id_aluno INT,
+    conteudo TEXT NOT NULL,
+    data DATE NOT NULL,
+    hora TIME NOT NULL,
+    FOREIGN KEY (id_post) REFERENCES postagem(id_post) ON DELETE CASCADE,
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno) ON DELETE SET NULL
+);
+
+-- Tabela para o ranking dos alunos
+CREATE TABLE ranking (
+    id_aluno INT PRIMARY KEY,
+    score INT DEFAULT 0,
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno) ON DELETE CASCADE
+);
+
+-- Tabela para registrar denúncias de postagens
+CREATE TABLE denuncias (
+    id_denun INT PRIMARY KEY AUTO_INCREMENT,
+    id_post INT,
+    id_aluno INT, -- Aluno que realizou a denúncia
+    id_colocan INT, -- Membro do corpo docente que recebeu/analisou a denúncia
+    status_denun VARCHAR(50) DEFAULT 'Pendente',
+    justi_denun TEXT,
+    FOREIGN KEY (id_post) REFERENCES postagem(id_post) ON DELETE CASCADE,
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno) ON DELETE SET NULL,
+    FOREIGN KEY (id_colocan) REFERENCES corpo_docente(id_colocan) ON DELETE SET NULL
+);
+
+-- =========== TABELAS DE DADOS ADICIONAIS E CONTATO ===========
+
+-- Tabelas de contato para os alunos
+CREATE TABLE telefone (
+    id_tel INT PRIMARY KEY AUTO_INCREMENT,
+    ddd VARCHAR(3) NOT NULL,
+    num_tel VARCHAR(15) NOT NULL,
+    tipo VARCHAR(20) -- Ex: Celular, Residencial
+);
+
+CREATE TABLE endereco (
+    id_end INT PRIMARY KEY AUTO_INCREMENT,
+    rua VARCHAR(255) NOT NULL,
+    num VARCHAR(10),
+    cep VARCHAR(10) NOT NULL,
+    comp VARCHAR(100)
+);
+
+-- Tabela de ligação para os dados adicionais do aluno
+CREATE TABLE dados_add (
+    id_add INT PRIMARY KEY AUTO_INCREMENT,
+    id_aluno INT UNIQUE, -- Garante que cada aluno tenha apenas um registro de dados adicionais
+    id_tel INT,
+    id_end INT,
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno) ON DELETE CASCADE,
+    FOREIGN KEY (id_tel) REFERENCES telefone(id_tel) ON DELETE SET NULL,
+    FOREIGN KEY (id_end) REFERENCES endereco(id_end) ON DELETE SET NULL
+);
+
+-- Tabelas de contato para as instituições
+CREATE TABLE telefone_inst (
+    id_tel_inst INT PRIMARY KEY AUTO_INCREMENT,
+    id_inst INT,
+    ddd VARCHAR(3) NOT NULL,
+    tel VARCHAR(15) NOT NULL,
+    FOREIGN KEY (id_inst) REFERENCES instituicao(id_inst) ON DELETE CASCADE
+);
+
+CREATE TABLE endereco_inst (
+    id_end_inst INT PRIMARY KEY AUTO_INCREMENT,
+    id_inst INT,
+    cep_inst VARCHAR(10) NOT NULL,
+    endereco_inst VARCHAR(255) NOT NULL,
+    num_inst VARCHAR(10),
+    comp_inst VARCHAR(100),
+    FOREIGN KEY (id_inst) REFERENCES instituicao(id_inst) ON DELETE CASCADE
+);
+
+-- =========== TABELAS DE EVENTOS E ENCONTROS ===========
+
+-- Tabela para eventos gerais
+CREATE TABLE eventos (
+    id_evento INT PRIMARY KEY AUTO_INCREMENT,
+    nome_evento VARCHAR(255), -- Adicionei um nome para o evento
+    data_event DATE NOT NULL,
+    hora_event TIME NOT NULL,
+    end_event VARCHAR(255) -- Endereço do evento
+);
+
+-- Tabela para encontros, possivelmente marcados a partir de uma postagem
+CREATE TABLE encontro (
+    id_encontro INT PRIMARY KEY AUTO_INCREMENT,
+    id_post INT,
+    id_user INT, -- Assumindo que id_user se refere a id_aluno
+    id_evento INT, -- Ligação com a tabela de eventos
+    FOREIGN KEY (id_post) REFERENCES postagem(id_post) ON DELETE SET NULL,
+    FOREIGN KEY (id_user) REFERENCES aluno(id_aluno) ON DELETE SET NULL,
+    FOREIGN KEY (id_evento) REFERENCES eventos(id_evento) ON DELETE SET NULL
+);
+
+-- =========== TABELAS DE SISTEMA E LOGS ===========
+
+-- Tabela de backup/log de ações
+CREATE TABLE backup (
+    id_backup INT PRIMARY KEY AUTO_INCREMENT,
+    tipo_acao VARCHAR(50),
+    descricao_acao TEXT, -- Adicionei uma descrição para mais detalhes
+    data DATE NOT NULL,
+    hora TIME NOT NULL
+);
