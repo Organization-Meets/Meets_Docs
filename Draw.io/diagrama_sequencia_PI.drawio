@@ -8,24 +8,24 @@
           <mxGeometry x="80" y="140" width="20" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Ufk2auAdTQdY9u0jJWc5-3" value="View" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
-          <mxGeometry x="200" y="150" width="50" height="300" as="geometry" />
+          <mxGeometry x="180" y="150" width="50" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Ufk2auAdTQdY9u0jJWc5-4" value="MeetsDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
-          <mxGeometry x="630" y="150" width="40" height="300" as="geometry" />
+          <mxGeometry x="670" y="150" width="40" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Ufk2auAdTQdY9u0jJWc5-5" value="controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="40" height="300" as="geometry" />
+        <mxCell id="Ufk2auAdTQdY9u0jJWc5-5" value="Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="40" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Ufk2auAdTQdY9u0jJWc5-7" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
           <mxGeometry x="770" y="340" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ufk2auAdTQdY9u0jJWc5-11" value="Usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
-          <mxGeometry x="530" y="150" width="40" height="300" as="geometry" />
+          <mxGeometry x="580" y="150" width="40" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Ufk2auAdTQdY9u0jJWc5-12" value="service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
-          <mxGeometry x="400" y="150" width="40" height="300" as="geometry" />
+        <mxCell id="Ufk2auAdTQdY9u0jJWc5-12" value="Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="40" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Ufk2auAdTQdY9u0jJWc5-13" value="repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+        <mxCell id="Ufk2auAdTQdY9u0jJWc5-13" value="Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
           <mxGeometry x="470" y="150" width="40" height="300" as="geometry" />
         </mxCell>
       </root>
