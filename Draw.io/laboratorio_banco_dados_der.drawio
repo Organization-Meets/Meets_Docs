@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="Página-1" id="WkaZz_jAUswJikopDCHg">
-    <mxGraphModel dx="2495" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="1985" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -787,6 +787,18 @@
         </mxCell>
         <mxCell id="O5GUREt-F_D-Hjb3NPGC-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="O5GUREt-F_D-Hjb3NPGC-3" target="4Knt8K3584VXo05Ejtwm-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmIZ2htaY8dtOQ2OGch7-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1596" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NmIZ2htaY8dtOQ2OGch7-2" value="titulo_post" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NmIZ2htaY8dtOQ2OGch7-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NmIZ2htaY8dtOQ2OGch7-2" target="4Knt8K3584VXo05Ejtwm-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="2169" as="sourcePoint" />
+            <mxPoint x="725" y="2130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
